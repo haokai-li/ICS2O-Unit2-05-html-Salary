@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- ICS2O-Unit2-05-HTML-Salary -->
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Salary, with JavaScript">
+    <meta name="keywords" content="MTHS, ICS2O">
+    <meta name="author" content="haokai">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Salary Program, with a JS file</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Salary Program, with a JS</h1>
+    <p>
+      Please enter your employemt information:
+      <form action="javascript:enterClicked()">
+        <label for="hours">Numer of hours worked: </label>
+        <input type="number" id="hours" placeholder="please take number"><br><br>
+        <label for="rate">Hours rate: $ </label>
+        <input type="number" id="rate" placeholder="please take number"><br><br>
+        <input type="submit" value="Pay">
+      </form>
+    </p>
+    <div id="pay-into">
+      <div id="yourPay"></div>
+      <div id="govenmentTake"></div>
+    </div>
+  </body>
+</html>
